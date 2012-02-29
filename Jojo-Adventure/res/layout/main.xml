@@ -2,11 +2,43 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:gravity="center"
     android:orientation="vertical" >
 
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hello" />
+        android:gravity="center"
+        android:onClick="gameStart"
+        android:text="@string/main_screen_start"
+        android:textSize="20dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="kontinue"
+        android:text="@string/main_screen_continue"
+        android:textSize="20dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="settings"
+        android:text="@string/main_screen_settings"
+        android:textSize="20dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="about"
+        android:text="@string/main_screen_about"
+        android:textSize="20dp"
+        android:textStyle="bold|italic" />
 
 </LinearLayout>

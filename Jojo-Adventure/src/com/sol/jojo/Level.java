@@ -1,5 +1,7 @@
 package com.sol.jojo;
 
-public class Level {
+import android.app.Activity;
+
+public class Level extends Activity{
 
 }
